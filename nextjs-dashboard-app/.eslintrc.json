@@ -1,0 +1,21 @@
+{
+  "extends": ["next/core-web-vitals", "standard-with-typescript"],
+  "plugins": [
+    "react-refresh"
+  ],
+  "parserOptions": {
+    "project" : "./tsconfig.json"
+  },
+  "rules": {
+    "react-refresh/only-export-components": "warn",
+    //"react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/method-signature-style": "off",
+    "no-multiple-empty-lines": "off",
+    "padded-blocks": "off",
+	  "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off"
+  }
+}
