@@ -1,0 +1,29 @@
+{
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"overrides": [
+		{
+			"files": [
+				"*.js",
+				"*.jsx",
+				"*.ts",
+				"*.tsx"
+			],
+			"rules": {
+				"react-refresh/only-export-components": "off",
+				"react/react-in-jsx-scope": "off",
+				"@typescript-eslint/method-signature-style": "off",
+				"@typescript-eslint/explicit-function-return-type": "off",
+				"no-multiple-empty-lines": "off",
+				"padded-blocks": "off",
+				"@typescript-eslint/triple-slash-reference": "off",
+				"@typescript-eslint/strict-boolean-expressions": "off",
+				"@typescript-eslint/prefer-nullish-coalescing": "off",
+				"@typescript-eslint/no-unused-vars": "off",
+				"@typescript-eslint/no-misused-promises": "off"
+			},
+			"extends": "love"
+		}
+	]
+}
