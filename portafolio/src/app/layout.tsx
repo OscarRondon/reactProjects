@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { OpenSans } from './ui/fonts'
+import './css/reset.css'
 import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import { SVGListBi } from './ui/icons/Icons'
 
 export const metadata: Metadata = {
   title: '[...OARC] Portfolio',
@@ -16,7 +16,15 @@ export default function RootLayout ({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={OpenSans.className}>
+        <main>
+          <article className='top-row'>
+              <i className='mobile-nav-toggle'><SVGListBi /></i>
+          </article>
+
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
