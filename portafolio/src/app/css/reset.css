@@ -23,7 +23,9 @@ Typographic tweaks!
 4. Improve text rendering
 */
 body {
+	/*
 	font-family: OpenSans-Light, OpenSans-Regular, system-ui, -apple-system, Roboto, sans-serif;
+	*/
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

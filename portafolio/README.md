@@ -9,7 +9,7 @@ Author: BootstrapMade.com
 
 Portafolio
 [
-	*	Adding fonts
-  * Add top row and nav button
-	* golbals CSS adjustments
+	*	Create NavMenu component
+	*	Add upper image for NavMenu
+	* Create NavMenu css file
 ]
