@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { OpenSans } from './ui/fonts'
 import './css/reset.css'
 import './globals.css'
-import { SVGListBi } from './ui/icons/Icons'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import NavMenu from './ui/navmenu/NavMenu'
 
 export const metadata: Metadata = {
@@ -21,9 +21,9 @@ export default function RootLayout ({
         <header>
           <NavMenu />
         </header>
-        <main>
+        <main >
           <section className='top-row'>
-              <i className='mobile-nav-toggle'><SVGListBi /></i>
+              <i className='mobile-nav-toggle bi-list'></i>
           </section>
           <section>
             {children}
