@@ -1,5 +1,5 @@
 'use client'
-import './NavMenu.css'
+import '../../css/NavMenu.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import 'bootstrap-icons/font/bootstrap-icons.css'

@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import { OpenSans } from './ui/fonts'
-import './css/reset.css'
+import './ui/css/reset.css'
 import './globals.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import NavMenu from './ui/navmenu/NavMenu'
+import NavMenu from './ui/components/shared/NavMenu'
 
 export const metadata: Metadata = {
   title: '[...OARC] Portfolio',

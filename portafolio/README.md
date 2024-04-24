@@ -13,7 +13,7 @@ npm i bootstrap-icons (https://www.npmjs.com/package/bootstrap-icons) [Add this 
 
 Portafolio
 [
-	* Include package bootstrap icons
-	*	Social media icons
-	* Add Navbar menu opion & functioaity
+	* Reestructuring, change folder name navbar to components
+	*	Move forlder css into ui
+	* Add Hero component
 ]

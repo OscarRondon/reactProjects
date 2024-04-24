@@ -1,10 +1,8 @@
 import Image from 'next/image'
+import Hero from './ui/components/shared/Hero'
 
 export default function Home () {
   return (
-    <article>
-      <h1 className='text-4xl'>Hello, world!</h1>
-      <p>Welcome to your new app.</p>
-    </article>
+    <Hero />
   )
 }
