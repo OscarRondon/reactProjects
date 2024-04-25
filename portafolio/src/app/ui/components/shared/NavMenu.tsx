@@ -18,7 +18,7 @@ export default function NavMenu () {
   <div className='flex flex-col'>
     <section className='profile'>
       <Image width={500} height={500} className='img-fluid rounded-full' src='/img/profile-img.jpg' alt='' />
-      <h1 className='mt-3'><Link className='nav-link' href=''>Oscar Rondon</Link></h1>
+      <h1 className='mt-3 border border-white'><Link className='' href=''>Oscar Rondon</Link></h1>
       <div className='social-links text-center my-3'>
           <a href='#' title='Linkedin'><i className='bi-linkedin'></i></a>
           <a href='#' title='Github'><i className='bi-github'></i></a>
