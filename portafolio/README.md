@@ -15,6 +15,6 @@ npm i typewriter-effect (https://github.com/tameemsafi/typewriterjs#readme) [Typ
 
 Portafolio
 [
-	* Add dependency for Typewriter effect
-	* Add Typewritter effect to Hero component
+	* Addjust Hero page
+	* Add About Component
 ]

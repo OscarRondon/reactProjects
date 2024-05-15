@@ -11,7 +11,7 @@ export default function Hero () {
       <p><span className="typed">
         <Typewriter
           options={{
-            strings: ['.Net Fullstack Developer', 'SAP Business One Developer', 'SAP Business One Consultant'],
+            strings: ['.Net Fullstack Developer', 'Reactjs Developer', 'SAP Business One Developer', 'SAP Business One Consultant'],
             autoStart: true,
             loop: true
           }}
