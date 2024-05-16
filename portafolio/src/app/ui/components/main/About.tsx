@@ -1,12 +1,11 @@
-import '@/ui/css/Hero.css'
+import '@/ui/css/About.css'
 import StackCard from '../shared/StackCard'
 
 export default function About () {
   return (
     <>
-      <section id="about" className="about">
-        <div className="container">
-
+      <section id="about" className="sectionAbout about border-dashed border-2 border-sky-500">
+        <div className="container mx-auto border-dashed border-2 border-sky-500">
             <div className="section-title">
                 <h2>About</h2>
                 <p>
@@ -14,8 +13,8 @@ export default function About () {
                 </p>
             </div>
 
-            <div className="row">
-                <div className="col-lg-4" data-aos="fade-right">
+            <div className="grid grid-flow-col">
+                <div className="col-span-2" data-aos="fade-right">
                     <img src="/img/profile-img.jpg" className="img-fluid" alt="" />
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
@@ -53,8 +52,8 @@ export default function About () {
         </div>
       </section>
 
-      <section id="skills" className="skills section-bg">
-        <div className="container">
+      <section id="skills" className="sectionAbout skills section-bg">
+        <div className="container mx-auto px-4">
 
             <div className="section-title">
                 <h2>Tech stack</h2>

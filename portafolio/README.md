@@ -15,6 +15,6 @@ npm i typewriter-effect (https://github.com/tameemsafi/typewriterjs#readme) [Typ
 
 Portafolio
 [
-	* Addjust Hero page
-	* Add About Component
+	* Add About CSS
+	* Add StackCard Css
 ]

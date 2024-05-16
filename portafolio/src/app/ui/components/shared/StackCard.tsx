@@ -1,4 +1,4 @@
-import '@/ui/css/Hero.css'
+import '@/ui/css/StackCard.css'
 import { Interface } from 'readline'
 import Typewriter from 'typewriter-effect'
 
