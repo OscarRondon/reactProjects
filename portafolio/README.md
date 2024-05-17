@@ -15,6 +15,5 @@ npm i typewriter-effect (https://github.com/tameemsafi/typewriterjs#readme) [Typ
 
 Portafolio
 [
-	* Add About CSS
-	* Add StackCard Css
+	* Addjust About CSS About section responsive
 ]

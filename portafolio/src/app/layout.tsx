@@ -17,7 +17,7 @@ export default function RootLayout ({
 }>) {
   return (
     <html lang="en">
-      <body className={OpenSans.className}>
+      <body /* className={OpenSans.className} */>
         <header>
           <NavMenu />
         </header>

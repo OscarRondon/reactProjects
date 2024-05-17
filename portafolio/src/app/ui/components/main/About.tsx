@@ -1,11 +1,12 @@
 import '@/ui/css/About.css'
+import Image from 'next/image'
 import StackCard from '../shared/StackCard'
 
 export default function About () {
   return (
     <>
-      <section id="about" className="sectionAbout about border-dashed border-2 border-sky-500">
-        <div className="container mx-auto border-dashed border-2 border-sky-500">
+      <section id="about" className="sectionAbout about">
+        <div className="container lg:px-0 md:px-4 mx-auto">
             <div className="section-title">
                 <h2>About</h2>
                 <p>
@@ -13,23 +14,23 @@ export default function About () {
                 </p>
             </div>
 
-            <div className="grid grid-flow-col">
-                <div className="col-span-2" data-aos="fade-right">
-                    <img src="/img/profile-img.jpg" className="img-fluid" alt="" />
+            <div className="grid md:grid-cols-1 lg:grid-cols-12 md:gap-8 lg:gap-4">
+                <div className="lg:col-start-1 lg:col-span-4" data-aos="fade-right">
+                    <Image width={800} height={800} className='img-fluid' src="/img/profile-img.jpg" alt="" />
                 </div>
-                <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                    <p className="fst-italic">
+                <div className="lg:col-start-5 lg:col-span-8" data-aos="fade-left">
+                    <p className="italic">
                         My most recent experience has been as a FullStack Developer for a Healtcare Institution usig InterSystem technologies.
                         I am highly competent in all of the associated tasks, such as designing and troubleshooting software, coding, debugging, and optimizing applications.
                         Furthermore, I have strong expertise in .Net Framework, .Net Core, C#, RestApi, WebServices, MS SQL Server, MySql, SAP HANA and SAP Business One (ERP Solution).
                         I also have knowledge on React, NodeJs, Express and NextJs.
                     </p>
-                    <p className="fst-italic">
+                    <p className="italic">
                         I have several other key strengths.
                         My ability to work effectively as part of a team, my problem-solving skills, and my natural organizational skills have, helped me succeed in my professional life.
                     </p>
-                    <div className="row mt-5">
-                        <div className="col-lg-6">
+                    <div className="grid md:grid-cols-1 lg:grid-cols-2 mt-5">
+                        <div className="">
                             <ul>
                                 <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>June 23</span></li>
                                 <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
@@ -37,7 +38,7 @@ export default function About () {
                                 <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kissimmee, FL, USA</span></li>
                             </ul>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="">
                             <ul>
                                 <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's degree in computer engineering</span></li>
                                 <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>oscar.rondon.c@gmail.com</span></li>
@@ -53,7 +54,7 @@ export default function About () {
       </section>
 
       <section id="skills" className="sectionAbout skills section-bg">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto">
 
             <div className="section-title">
                 <h2>Tech stack</h2>
