@@ -18,8 +18,8 @@ export default function About () {
                 <div className="lg:col-start-1 lg:col-span-4" data-aos="fade-right">
                     <Image width={800} height={800} className='img-fluid' src="/img/profile-img.jpg" alt="" />
                 </div>
-                <div className="lg:col-start-5 lg:col-span-8" data-aos="fade-left">
-                    <p className="italic">
+                <div className="lg:col-start-5 lg:col-span-8 content" data-aos="fade-left">
+                    <p className="italic mb-5">
                         My most recent experience has been as a FullStack Developer for a Healtcare Institution usig InterSystem technologies.
                         I am highly competent in all of the associated tasks, such as designing and troubleshooting software, coding, debugging, and optimizing applications.
                         Furthermore, I have strong expertise in .Net Framework, .Net Core, C#, RestApi, WebServices, MS SQL Server, MySql, SAP HANA and SAP Business One (ERP Solution).
@@ -29,8 +29,8 @@ export default function About () {
                         I have several other key strengths.
                         My ability to work effectively as part of a team, my problem-solving skills, and my natural organizational skills have, helped me succeed in my professional life.
                     </p>
-                    <div className="grid md:grid-cols-1 lg:grid-cols-2 mt-5">
-                        <div className="">
+                    <div className="grid md:grid-cols-1 lg:grid-cols-2 mt-10">
+                        <div className="row-span-1">
                             <ul>
                                 <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>June 23</span></li>
                                 <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
