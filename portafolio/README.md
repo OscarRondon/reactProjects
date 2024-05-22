@@ -15,5 +15,5 @@ npm i typewriter-effect (https://github.com/tameemsafi/typewriterjs#readme) [Typ
 
 Portafolio
 [
-	* About session finished
+	* Aadd bootstrap and tailwind logo
 ]

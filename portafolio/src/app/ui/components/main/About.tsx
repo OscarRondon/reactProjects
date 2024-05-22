@@ -68,6 +68,10 @@ export default function About () {
 
                 <StackCard CardTitle="JavaScript" ImgSrc="/img/JavaScript-Logo.png" />
 
+                <StackCard CardTitle="JavaScript" ImgSrc="/img/Bootstrap-Logo.png" />
+
+                <StackCard CardTitle="JavaScript" ImgSrc="/img/Tailwind-Logo.png" />
+
                 <StackCard CardTitle=".Net Core" ImgSrc="/img/NetCore-Logo.png" />
 
                 <StackCard CardTitle=".Net Framework" ImgSrc="/img/NetFramework-Logo.png" />
