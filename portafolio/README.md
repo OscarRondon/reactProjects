@@ -15,5 +15,8 @@ npm i typewriter-effect (https://github.com/tameemsafi/typewriterjs#readme) [Typ
 
 Portafolio
 [
-	* Aadd bootstrap and tailwind logo
+	* Adjust NavMenu
+	* Add Skill Crystal Report
+	*	Add Resume component
+	* Add Resume component css
 ]

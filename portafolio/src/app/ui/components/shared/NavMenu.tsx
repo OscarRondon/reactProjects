@@ -40,15 +40,15 @@ export default function NavMenu () {
           </a>
         </li>
         <li>
-          <a href='#resume' title='resume'className={activeMenuOption === 'Resume' ? 'active' : ''}
-            onClick={() => { activeMenuOptionHandler('Resume') }}>
-            <i className='bi bi-file-earmark-check'></i><span>Resume</span>
+          <a href='#proyects' title='proyects'className={activeMenuOption === 'Proyects' ? 'active' : ''}
+            onClick={() => { activeMenuOptionHandler('Proyects') }}>
+            <i className='bi bi-terminal'></i><span>Proyects</span>
           </a>
         </li>
         <li>
-          <a href='#potfolo' title='portfolio'className={activeMenuOption === 'Portfolio' ? 'active' : ''}
-            onClick={() => { activeMenuOptionHandler('Portfolio') }}>
-            <i className='bi bi-terminal'></i><span>Portfolio</span>
+          <a href='#resume' title='resume'className={activeMenuOption === 'Resume' ? 'active' : ''}
+            onClick={() => { activeMenuOptionHandler('Resume') }}>
+            <i className='bi bi-file-earmark-check'></i><span>Resume</span>
           </a>
         </li>
         <li>

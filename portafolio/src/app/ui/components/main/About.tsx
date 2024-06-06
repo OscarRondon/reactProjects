@@ -96,6 +96,8 @@ export default function About () {
 
                 <StackCard CardTitle="SAP HANA" ImgSrc="/img/SAPHANA-Logo.png"/>
 
+                <StackCard CardTitle="Crystal Report" ImgSrc="/img/CrystalReport-Logo.png"/>
+
             </div>
         </div>
       </section>
